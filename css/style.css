@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --texto-color: hsl(193, 38%, 86%);
+    --cor-secundaria: hsl(150, 100%, 66%);  
+    --main-color: hsl(217, 19%, 24%);
+    --bg-color: hsl(218, 23%, 16%);
+}
+
+body{
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{ 
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    background-color: var(--main-color);
+    width:350px;
+    height: 335px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#titulo {
+    color: var(--cor-secundaria);
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+#texto{
+    color: var(--texto-color);
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-align: center;
+    height: 50%;
+    width: 90%;
+    margin: 10px auto;
+}
+
+#divisor{
+    height: 20px;
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+#dado-pai{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 17%;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+#dado-pai:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 40px var(--cor-secundaria);
+}
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    display: inline;
+    font-size: 11px; 
+    text-align: center;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
