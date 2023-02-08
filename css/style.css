@@ -17,7 +17,6 @@
 
 body{
     background-color: var(--bg-color);
-    width: 100vw;
     height: 100vh;
 }
 
@@ -27,7 +26,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 97%;
 }
 
 section{
@@ -86,22 +85,13 @@ section{
     box-shadow: 2px 2px 40px var(--cor-secundaria);
 }
 
-
-
-
-
-
-
-
-
-
 .attribution { 
-    display: inline;
-    font-size: 11px; 
-    text-align: center;
-    
+    display: block; 
+    text-align: center; 
+    font-size: 11px;  
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: var(--cor-secundaria);
+    text-decoration:none;
 }
