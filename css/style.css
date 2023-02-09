@@ -95,3 +95,17 @@ section{
     color: var(--cor-secundaria);
     text-decoration:none;
 }
+
+@media screen and (min-width:1024px) {
+    section{
+        width: 600px
+    }
+
+    #divisor{
+        width: 70%;
+    }
+
+    #dado-pai{
+        width: 12%;
+    }
+}
