@@ -13,10 +13,12 @@
 <body>
   <main>      
       <section>
-        <p class="conselho" id="titulo">Conselho # <span id="num"></span> </p><!-- Advice ID goes here -->
-        <p class="conselho" id="texto">"It ipsum dolor sit amet consectetur adipisicing elit. In aliquam, reprehenderit ratione ipsum eum repellat labore sed".</p><!-- Advice text goes here -->
+        <p class="conselho" id="titulo"> <span id="num"></span> 
+        <p class="conselho" id="texto">"</p>
         <img src="../images/pattern-divider-mobile.svg" alt="Divisor" id="divisor">
-        <div class="dado" id="dado-pai"><img src="../images/icon-dice.svg" alt="DADO" class="dado" id="dado-filho"></div>
+        <div class="dado" id="dado-pai" onclick="fetchAdvice()">
+          <img src="../images/icon-dice.svg" alt="DADO" class="dado" id="dado-filho">
+        </div>
       </section>
   </main>
 
