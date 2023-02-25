@@ -1,7 +1,7 @@
 <h1 align="center"><strong>Gerador de Conselho</strong><h1>
 
 <div align="center">
-    <img src="./images/desktop.png" alt="Desktop" width="70%">
+    <img src="./images/desktop.png" alt="Desktop" width="90%">
 </div>
 
 
